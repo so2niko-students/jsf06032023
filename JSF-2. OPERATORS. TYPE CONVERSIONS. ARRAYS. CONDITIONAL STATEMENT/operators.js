@@ -136,7 +136,7 @@ console.log(us);
 //         shortNames.push(students[i]);
 //     }
 // }
-
-const shortNames = students.filter(el => el.name.length <= 6);
+const below6 = el => el.name.length <= 6;
+const shortNames = students.filter(below6);
 
 console.log('shortNames', shortNames);
