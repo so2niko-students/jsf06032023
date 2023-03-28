@@ -1,0 +1,43 @@
+body{
+    display: flex;
+}
+
+.basket{
+    width: 300px;
+    border: 1px solid black;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.el{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.red{
+    background-color: red;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.hover{
+    -webkit-box-shadow: inset 35px 38px 42px 0px rgba(194,60,194,1);
+    -moz-box-shadow: inset 35px 38px 42px 0px rgba(194,60,194,1);
+    box-shadow: inset 35px 38px 42px 0px rgba(194,60,194,1);
+}
+
+.drag{
+    filter: hue-rotate(35deg);
+    font-weight: 800;
+    position: fixed;
+}
