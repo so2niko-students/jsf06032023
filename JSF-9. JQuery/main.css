@@ -1,0 +1,17 @@
+.red{
+    color: red;
+}
+
+.weight800{
+    font-weight: 800;
+}
+
+.el{
+    width: 100px;
+    height: 33px;
+    border: 1px solid black;
+}
+
+.selected{
+    background-color: aqua;
+}
